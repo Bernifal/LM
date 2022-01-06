@@ -3,12 +3,14 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <title>LM Website</title>
+    </head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Monoton&family=Mountains+of+Christmas:wght@700&family=Raleway:wght@500;600;900&family=Shippori+Antique&display=swap" rel="stylesheet">    <body>
+        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Monoton&family=Mountains+of+Christmas:wght@700&family=Raleway:wght@500;600;900&family=Shippori+Antique&display=swap" rel="stylesheet">
+    <body class="background-bricks">
         <div class="inner-site">
             <header>
                 <div>
@@ -27,24 +29,31 @@
                 <!-- end container -->
             </header>
 
-            <div class="container container-flex">
-                <aside class="sidebar">
-                    <div class="sidebar-widget">
-                        <img class="headshot-photo" src="img/Luna.jpg" rel="headshot of the author">
-                        <h2 class="widget-title">About</h2>
-                        <p>My passion for design began with dollshouses when I was 8 years old. I would renovated every room every school holiday.</p>
-                        <p>Stay social</p>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <img>
+            <main>
+                <div class="container-flex">
+                    <div class="sidebar">
+                        <aside>
+                            <div class="sidebar-widget">
+                                <img class="headshot-photo" src="img/Luna.jpg" rel="headshot of the author">
+                                <h2 class="widget-title">About</h2>
+                                <p class="about-copy">My passion for design began with dollshouses when I was 8 years old. I would renovated every room every school holiday.</p>
+                                <p>Stay social</p>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <img>
+                            </div>
+                        </aside>
                     </div>
-                </aside>
 
-                <div>
-                    <img class="feature-photo" src="img/living.jpg" rel="large cactus beside sofa">
+                    <div class="feature-content">
+                        <div>
+                            <img class="feature-photo" src="img/living.jpg" rel="large cactus beside sofa">
+                        </div>
+                    </div>
                 </div>
 
-                <main role="main">   
+            
+                <div class="projects">   
                     <div class="collumns">
                         <img class="featured-projects" src="img/no-103.jpg" rel="dining table beside large door to outdoor space">
                         <h2 class="featured-projects-titles">No.103</h2>
@@ -55,7 +64,7 @@
                         <p class="featured-projects-body">A petite maisonette in a quiet hamlet which transformed from a close and cluttered space to an airy, bright sancturary</p>
                     </div>
 
-                    <div collumns>
+                    <div class="collumns">
                         <img class="featured-projects" src="img/flat-3.jpg" rel="clever storage system under a staircase">
                         <h2 class="featured-projects-titles">Flat 3</h2>
                         <p class="featured-projects-body">A tight inner-city space proved a beautiful challenge</p>
@@ -64,11 +73,9 @@
                         <h2 class="featured-projects-titles">No.45</h2>
                         <p class="featured-projects-body">This 8 bedroom townhouse has a fresh character in each room, yet all is tied together by the uniting theme of the client's special interest</p>
                     </div>
-                </main>
-            </div>
-
-            
-            </div>
-        </div>
+                </div>
+            </main>
+            <!-- </div>
+        </div> -->
     </body>
 </html>
