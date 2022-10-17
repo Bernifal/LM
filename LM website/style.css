@@ -49,8 +49,8 @@ nav a {
 .container-flex {
   display: flex;
   justify-content: center;
-  border: magenta 2px solid;
-  /* justify-content: space-around; */
+  /* border: magenta 2px solid; */
+  /* justify-content: space-between; */
 }
 
 .sidebar {
@@ -66,19 +66,6 @@ nav a {
 .projects {
   display: flex;
   justify-content: center;
-}
-
-.projects__column {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-content: center;
-}
-
-.projects__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* IMAGES */
@@ -112,7 +99,7 @@ nav a {
     text-align: center;
     text-decoration: none;
   }
-
+  
   .fa:hover {
     opacity: 0.7;
   }
@@ -121,7 +108,7 @@ nav a {
     background: #3B5998;
     color: white;
   }
-
+  
   .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -133,10 +120,10 @@ header h1 {
   font-family: 'Raleway', sans-serif;;
   font-weight: Black 900;
   font-size: 100px;
-  text-align: center;
+  text-align: center; 
   margin: 0;
   /* border-bottom: 1px solid rgb(109, 108, 108); */
-
+    
 }
 
 .featured-projects-titles,
